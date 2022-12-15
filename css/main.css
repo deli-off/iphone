@@ -92,7 +92,7 @@ a {
 }
 
 .text-section__inner__first-part {
-  margin-left: 50px;
+  margin-left: 70px;
 }
 .text-section__inner__first-part h2 {
   font-size: 17px;
@@ -110,7 +110,7 @@ a {
 }
 
 .text-section__inner__second-part {
-  margin-left: 650px;
+  margin-left: 670px;
 }
 .text-section__inner__second-part p {
   color: #1d1d1f;
@@ -138,4 +138,124 @@ a {
 .text-section__inner__second-part2 p {
   padding: 15px;
   border-radius: 20px;
+}
+
+.scroll-section__inner {
+  margin-left: 70px;
+  display: flex;
+}
+
+.scroll-section__inner-img img {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50px;
+  background-color: #f5f5f7;
+}
+
+.scroll-section__inner-text {
+  margin-top: 120px;
+  margin-left: 100px;
+}
+.scroll-section__inner-text h2 {
+  font-size: 24px;
+  color: #86868B;
+  max-width: 325px;
+}
+.scroll-section__inner-text h2 span {
+  color: #1d1d1f;
+}
+
+.scroll-section__inner-tex__box {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 25px;
+  transition: 0.5s ease;
+}
+.scroll-section__inner-tex__box:hover {
+  outline: 5px solid skyblue;
+}
+.scroll-section__inner-tex__box h3 {
+  font-size: 17px;
+  color: #1d1d1f;
+  margin-bottom: 4px;
+}
+.scroll-section__inner-tex__box p {
+  font-size: 12px;
+  color: #1d1d1f;
+}
+.scroll-section__inner-tex__box .par2 {
+  font-size: 14px;
+  font-style: normal;
+  text-align: right;
+  max-width: 100px;
+  color: #1d1d1f;
+  margin-left: 120px;
+}
+
+.scroll-section__inner-tex__box2 {
+  background-color: #f5f5f7;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 25px;
+  transition: 0.5s ease;
+  margin-bottom: 50px;
+}
+.scroll-section__inner-tex__box2:hover {
+  outline: 5px solid black;
+}
+.scroll-section__inner-tex__box2 .zag, .scroll-section__inner-tex__box2 p {
+  font-size: 14px;
+  color: #1d1d1f;
+  margin-left: 30px;
+  max-width: 250px;
+  margin-bottom: 5px;
+}
+
+.color-pick h3 {
+  font-size: 17px;
+  color: #1d1d1f;
+  margin-top: 25px;
+}
+.color-pick .colors {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.color-pick span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+.color-pick span:hover {
+  outline: 3px solid black;
+}
+.color-pick .blue {
+  background-color: skyblue;
+}
+.color-pick .purple {
+  background-color: lightcoral;
+}
+.color-pick .midnight {
+  background-color: #1d1d1f;
+}
+.color-pick .starlight {
+  background-color: #f5f5f7;
+}
+.color-pick .red {
+  background-color: red;
+}
+.color-pick p {
+  font-size: 12px;
+  color: #6e6e73;
+  max-width: 280px;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=main.css.map */
