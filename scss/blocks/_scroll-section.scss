@@ -1,19 +1,21 @@
 .scroll-section__inner {
-    margin-left: 70px;
+    margin-left: 100px;
     display: flex;
 }
 
 .scroll-section__inner-img {
-    
-
-    img {
-        position: sticky;
-        top: 50px;
-        object-fit: contain;
-        border-radius: 50px;
-        background-color: #f5f5f7
-     
-    };
+    width: 653px;
+    height: 548px;
+    background-color: #f5f5f7;
+    background-image: url(/img/blue-iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 18px;
+    position: sticky;
+    top: 50px;
+    transition: 0.5s ease;
+    margin-top: 70px;
 } 
 
 .scroll-section__inner-text {
@@ -101,7 +103,7 @@
         margin-top: 15px;
     }
 
-    span {
+    button {
         display: block;
         width:40px;
         height:40px;
