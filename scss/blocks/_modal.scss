@@ -1,5 +1,5 @@
 .modal-bg {
-    // display: none;
+    display: none;
     width: 100%;
     height: 400vh;
     position: absolute;
@@ -11,9 +11,9 @@
 }
 
 .modal {
-    // display: none;
+    display: none;
     width: 70%;
-    display: block !important;
+    // display: block !important;
     border-radius: 15px;
     margin: 0 auto;
     position: sticky;
