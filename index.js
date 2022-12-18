@@ -43,8 +43,20 @@ red.onclick = () => {
 //     }
 // })
 
+let openBtn = document.querySelector('.p11')
+let modal = document.querySelector('.modal')
+let modalBg = document.querySelector('.modal-bg')
+let closeBtn = document.querySelector('.close-btn')
 
+openBtn.onclick = () => {
+    modalBg.style.display = 'block'
+    modal.style.display = 'block'
+}
 
+closeBtn.onclick = () => {
+    modalBg.style.display = 'none'
+    modal.style.display = 'none'
+}
 
 
 
