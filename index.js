@@ -45,17 +45,51 @@ let modal = document.querySelector('.modal')
 let modalBg = document.querySelector('.modal-bg')
 let closeBtn = document.querySelector('.close-btn')
 
-openBtn.onclick = () => {
-    modalBg.style.display = 'block'
-    modal.style.display = 'block'
+function openClose(arr, func) {
+    arr.onclick = () => {
+        func()
+    }
 }
 
-closeBtn.onclick = () => {
-    modalBg.style.display = 'none'
-    modal.style.display = 'none'
+openClose(openBtn, openModal)
+openClose(closeBtn, closeModal)
+
+function openModal() {
+    modal.style.display = "block"
+    modalBg.style.display = "block"
+    setTimeout(() => {
+        modal.style.opacity = 1
+        modalBg.style.opacity = 1
+        modal.style.scale = 1
+    }, 200)
+}
+
+function closeModal() {
+    modal.style.opacity = 0
+    modalBg.style.opacity = 0
+    modal.style.scale = .1
+    setTimeout(() => {
+        modal.style.display = "none"
+        modalBg.style.display = "none"
+    }, 200)
 }
 
 
+
+// const boxes = Array.from(document.querySelectorAll(".box11"))
+
+// boxes.forEach((box) => {
+//     box.onclick = () => {
+//         return boxHandler()
+//     }
+// })
+
+// function boxHandler(e) {
+//     e.preventDefault();
+//     let currentBox = e.target.nextElementSibling
+
+//     if (currentBox.classList.contains(""))
+// }
 
 
 
