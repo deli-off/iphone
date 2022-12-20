@@ -1,9 +1,26 @@
-let blue = document.querySelector('.blue');
-let purple = document.querySelector('.purple');
-let midnight = document.querySelector('.midnight');
-let starlight = document.querySelector('.starlight');
-let red = document.querySelector('.red');
-let img = document.querySelector('.scroll-section__inner-img');
+// const iphonesColors = {
+//     blue: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-storage-select-202209-6-7inch-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1660691793956",
+//     purple: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-purple?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661027938735",
+//     midnight: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-midnight?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661027925267",
+//     starlight: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-starlight?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661027935971"
+// }
+
+// let applesBtn = document.querySelectorAll('button[data-apple]')
+// let img = document.querySelector('.scroll-section__inner-img')
+
+// applesBtn.forEach(btn => {
+//     btn.onclick = () => {
+//         let key = btn.innerHTML
+//         img.style.backgroundImage = `url(${iphonesColors[key]})`
+//     }
+// })
+
+let blue = document.querySelector('.blue')
+let purple = document.querySelector('.purple')
+let midnight = document.querySelector('.midnight')
+let starlight = document.querySelector('.starlight')
+let red = document.querySelector('.red')
+let img = document.querySelector('.scroll-section__inner-img')
 
 blue.onclick = () => {
     img.style.backgroundImage = "url('./img/blue-iphone.jpg')"
@@ -21,27 +38,7 @@ red.onclick = () => {
     img.style.backgroundImage = "url('./img/red-iphone.jpg')"
 }
 
-// 2 способ
 
-// let allBtns = document.querySelectorAll('button');
-// let img = document.querySelector('.scroll-section__inner-img');
-
-
-// allBtns.forEach(btn => {
-//     btn.onclick = () => {
-//         if (btn.classList === 'blue') {
-//             img.style.backgroundImage = "url('./img/blue-iphone.jpg')"
-//         } else if (btn.classList === 'purple') {
-//             img.style.backgroundImage = "url('./img/purple-iphone.jpg')"
-//         } else if (btn.classList === 'midnight') {
-//             img.style.backgroundImage = "url('./img/midknihgt-iphone.jpg')"
-//         } else if (btn.classList === 'starlight') {
-//             img.style.backgroundImage = "url('./img/starlight-iphone.jpg')"
-//         } else if (btn.classList === 'red') {
-//             img.style.backgroundImage = "url('./img/red-iphone.jpg')"
-//         }
-//     }
-// })
 
 let openBtn = document.querySelector('.p11')
 let modal = document.querySelector('.modal')

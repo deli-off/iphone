@@ -13,17 +13,19 @@
 
 .modal {
     display: none;
-    width: 70%;
+    width: 900px;
     // display: block !important;
     border-radius: 15px;
     margin: 0 auto;
-    position: sticky;
     position: absolute;
     z-index: 2000;
     background-color: white;
     padding-top: 100px;
-    margin-left: 200px;
     margin-top: 100px;
+    left: 50% ;
+    top: 50% ;
+    translate: -50% -50%;
+    margin-top: 650px;
 }
 
 .modal-header {
@@ -93,7 +95,7 @@
         *[dir="rtl"] select, :root:lang(ar) select, :root:lang(iw) .select-css { 
         background-position: left .7em top 50%, 0 0; 
         padding: .6em .8em .5em 1.4em; 
-        }
+    }
 }
 
 .modal-header__text {
@@ -107,13 +109,14 @@
 
 .modal-body {
     margin-top: 100px;
-    margin: 0 auto;
     background-color: #f5f5f7;
     padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box11 {
-    margin-left: 100px;
     h2 {
         font-size: 24px;
         margin-bottom: 40px;
