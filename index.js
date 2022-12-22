@@ -74,22 +74,17 @@ function closeModal() {
     }, 200)
 }
 
+let items = document.querySelectorAll('.box11')
+
+items.forEach(item => {
+    item.onclick = () => {
+        items.forEach(el => el.classList.remove('active'))
+
+        item.classList.add('active')
+    }
+})
 
 
-// const boxes = Array.from(document.querySelectorAll(".box11"))
-
-// boxes.forEach((box) => {
-//     box.onclick = () => {
-//         return boxHandler()
-//     }
-// })
-
-// function boxHandler(e) {
-//     e.preventDefault();
-//     let currentBox = e.target.nextElementSibling
-
-//     if (currentBox.classList.contains(""))
-// }
 
 
 

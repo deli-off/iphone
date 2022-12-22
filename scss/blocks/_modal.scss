@@ -110,18 +110,27 @@
     }
 }
 
-.modal-body {
+
+
+.conatiner {
     margin-top: 100px;
-    margin: 0 auto;
-    background-color: #f5f5f7;
-    padding-top: 70px;
 }
 
 .box11 {
-    margin-left: 100px;
+    width: 83%;
+    height: 50px;
+    padding-top: 30px;
+    background-color: #f5f5f7; 
+    padding-left: 150px;
+    overflow: hidden;
+    transition: .5s ease ;
+
+
+
     h2 {
         font-size: 24px;
         margin-bottom: 40px;
+        padding: 0;
     }
 
     hr {
@@ -132,7 +141,7 @@
         display: flex;
         margin-top: 30px;
         margin-bottom: 50px;
-        position: sticky;
+
         .text-cost-content {
             transform: translateX(200px);
             .h4 {
@@ -177,6 +186,10 @@
         font-size: 17px;
         color: #1d1d1f;
     }
+}
+
+.active {
+    height: auto;
 }
 
 .big-text {
